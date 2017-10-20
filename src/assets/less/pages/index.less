@@ -1,0 +1,33 @@
+body {
+	height: 100%;
+	position: relative;
+	background: #f5f5f5;
+	font-size: 0.8rem;
+	color: #707070;
+	overflow-y: none;
+}
+
+// 有底部按钮
+.content-footer {
+	height: calc(~'100vh - 3.6rem');
+	overflow-y: auto;
+	.center {
+		max-width: 768px;
+		margin: 0 auto;
+		height: calc(~'100vh - 3.6rem');
+		@import './main/Main.less';
+	}
+}
+
+// 无底部按钮
+.content {
+	overflow-y: auto;
+	height: 100vh;
+	.center {
+		max-width: 768px;
+		margin: 0 auto;
+		height: 100vh;
+		@import './main/Article.less';
+		@import './main/Login.less';
+	}
+}

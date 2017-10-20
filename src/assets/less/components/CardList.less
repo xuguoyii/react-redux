@@ -1,0 +1,45 @@
+.cardlist-content {
+	background-color: #fff;
+	.card-contain {
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		padding: 0.5rem;
+		border-bottom: 1px solid #ddd;
+		flex: 1;
+		&:active {
+			background-color: #bfbfbf;
+			opacity: 0.5;
+		}
+		.card-img {
+			width: 10%;
+			border-radius: 1.5rem;
+			overflow: hidden;
+			text-align: center;
+			min-width: 3rem;
+			img {
+				width: 3rem;
+				height: 3rem;
+			}
+		}
+		.card-main {
+			padding: 0.5rem;
+			max-width: 70%;
+			width: 70%;
+			.card-title {
+				padding-bottom: 0.5rem;
+			}
+			.card-text {
+				font-size: 0.7rem;
+			}
+		}
+		.card-tag {
+			width: 10%;
+			min-width: 70px;
+			text-align: center;
+			.iconfont {
+				font-size: 1.2rem;
+			}
+		}
+	}
+}

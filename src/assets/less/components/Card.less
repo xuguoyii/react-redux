@@ -1,0 +1,75 @@
+.card-content {
+	background-color: #fff;
+	.card-contain {
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		padding: 0.5rem;
+		border-bottom: 1px solid #ddd;
+		flex: 1;
+		.card-img {
+			width: 10%;
+			border-radius: 1.5rem;
+			overflow: hidden;
+			text-align: center;
+			min-width: 3rem;
+			img {
+				width: 3rem;
+				height: 3rem;
+			}
+			&:active {
+				background-color: #bfbfbf;
+				opacity: 0.5;
+			}
+		}
+		.card-main {
+			padding: 0.5rem;
+			max-width: 70%;
+			width: 70%;
+			&:active {
+				background-color: #bfbfbf;
+				opacity: 0.5;
+			}
+			.card-title {
+				padding-bottom: 0.5rem;
+			}
+			.card-text {
+				font-size: 0.7rem;
+			}
+		}
+		.card-tag {
+			.follow {
+				width: 10%;
+				color: #3e9ce9;
+				border: 1px solid #3e9ce9;
+				border-radius: 5px;
+				min-height: 25px;
+				line-height: 25px;
+				padding: 0px 8px;
+				text-align: center;
+				min-width: 70px;
+			}
+			.follow:hover {
+				color: #fff;
+				font-weight: bold;
+				background-color: #3e9ce9;
+			}
+			.unfollow {
+				width: 10%;
+				color: #DC143C;
+				border: 1px solid #DC143C;
+				border-radius: 5px;
+				min-height: 25px;
+				line-height: 25px;
+				padding: 0px 8px;
+				text-align: center;
+				min-width: 70px;
+			}
+			.unfollow:hover {
+				color: #fff;
+				font-weight: bold;
+				background-color: #DC143C;
+			}
+		}
+	}
+}
